@@ -6,9 +6,9 @@
   <title>E-Commerce Website</title>
   <style>
     body { font-family: Arial, sans-serif; margin: 0; padding: 0; }
-    .navbar { background: #333; padding: 10px; text-align: center; }
-    .navbar a, .navbar button { color: white; background: none; border: none; padding: 14px; cursor: pointer; font-size: 16px; }
-    .navbar a:hover, .navbar button:hover { background: #555; }
+    nav { background: #333; padding: 10px; text-align: center; }
+    nav a, nav button { color: white; background: none; border: none; padding: 14px; cursor: pointer; font-size: 16px; }
+    nav a:hover, nav button:hover { background: #555; }
     .container { width: 80%; margin: auto; padding-top: 20px; }
     .product-grid { display: flex; flex-wrap: wrap; gap: 15px; }
     .product { border: 1px solid #ddd; padding: 10px; width: 220px; cursor: pointer; position: relative; }
@@ -27,11 +27,10 @@
   </style>
 </head>
 <body>
-  <div id="gif-banner" aria-hidden="true">
+  <header id="gif-banner" aria-hidden="true">
     <img src="https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExNWh4ZjY3ZW82OHNhMHZ1OHJ4bjBiejBmN3k2YzU5Mnd0ODV5dGhyYyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/cv0rLbvCdXBPjw0frO/giphy.gif" alt="E-Commerce Banner">
-  </div>
-
-  <div class="navbar" role="navigation" aria-label="Main navigation">
+  </header>
+  <nav role="navigation">
     <a href="#" onclick="showSection('all-products')">All Products</a>
     <a href="#" onclick="showSection('fashion')">Fashion</a>
     <a href="#" onclick="showSection('electronics')">Electronics</a>
@@ -41,7 +40,7 @@
     <a href="#" onclick="showSection('about-us')">About Us</a>
     <button onclick="openLogin()">Login</button>
     <button onclick="openRegister()">Register</button>
-  </div>
+  </nav>
 
   <div class="container">
     <div id="all-products" class="section">
