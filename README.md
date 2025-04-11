@@ -1,6 +1,6 @@
 # WebAccessibility
 
-##https://aditijadkar.github.io/WebAccessibility/
+## https://aditijadkar.github.io/WebAccessibility/
 ## Semantic HTML Elements
 
 Semantic elements clearly describe their meaning in a human- and machine-readable way. They improve accessibility, SEO, and overall code clarity.
